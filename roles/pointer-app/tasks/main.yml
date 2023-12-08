@@ -34,7 +34,7 @@
 
 - name: Restaurando docker-compose file
   ansible.builtin.copy:
-    src: /tmp/pointer-apps/proles/pointer-app/files/docker-compose.yml-bkp
+    src: /tmp/pointer-apps/roles/pointer-app/files/docker-compose.yml-bkp
     dest: /tmp/pointer-apps/roles/pointer-app/files/docker-compose.yml
     mode: '0644'
   tags:
